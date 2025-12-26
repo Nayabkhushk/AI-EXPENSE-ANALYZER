@@ -6,10 +6,8 @@ from groq import Groq
 
 # --------------------------
 # Set your Groq API key manually (for Colab)
-# --------------------------
-# You can either:
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "YOUR API KEY HERE"
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
